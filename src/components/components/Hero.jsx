@@ -1,7 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../../styles'
 import { ComputersCanvas } from './canvas'
+
+
 
 const Hero = () => {
   return (
@@ -15,7 +18,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>Good day, I'm <span className='text-[#8b77f8]'>Hope Jr Ajoku</span></h1>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-             Welcome to my portfolio website, I build on the world wide web.
+             Welcome to my portfolio website, <br className='sm:block hidden' /> I build on the world wide web.
           </p>
         </div>
         

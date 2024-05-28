@@ -1,3 +1,6 @@
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
@@ -56,4 +59,5 @@ const About = () => {
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default SectionWrapper (About, "about");

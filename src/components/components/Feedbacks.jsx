@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
+/* eslint-disable react-refresh/only-export-components */
 import React from "react";
 import { motion } from "framer-motion";
 
